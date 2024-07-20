@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountDown</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="timer">
+        <div class="finished">
+          <h4>Time Up</h4>
+        </div>
+
+        <div class="form">
+          <form id="timeForm">
+            <label for="timeInput">Enter Seconds:</label><br />
+            <br />
+            <input type="input" id="timeInput" name="timeInput" required />
+            <br />
+            <br />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <div class="timeElapsed">
+          <h5>Time Elapsed: <span class="rt"></span></h5>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

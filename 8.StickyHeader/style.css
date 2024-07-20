@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(192, 123, 99);
+  font-family: "gilroy";
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(104, 95, 95);
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px 20px;
+  position: sticky;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+.page1,
+.page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(43, 75, 64);
+}
+
+.page2 {
+  background-color: rgb(186, 86, 86);
+}

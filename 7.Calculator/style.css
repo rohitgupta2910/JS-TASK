@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(150, 142, 142);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calci {
+  height: 60%;
+  width: 25%;
+  background-color: rgb(216, 213, 213);
+  padding: 15px 10px;
+}
+
+.screens {
+  padding: 10px 10px;
+  border-radius: 15px;
+  height: 50px;
+  width: full;
+  background-color: rgb(38, 193, 204);
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 65px;
+  width: 65px;
+  border-radius: 30px;
+  margin-right: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}

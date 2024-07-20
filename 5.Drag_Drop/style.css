@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(76, 174, 76);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+.leftbox {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightbox {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.move {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  cursor: pointer;
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(66, 241, 171, 0.927);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fill {
+  height: 70%;
+  width: 50%;
+  background-color: beige;
+  border-radius: 5%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  gap: 30px;
+  position: relative;
+}
+
+input {
+  padding: 10px;
+  height: 30px;
+  width: 300px;
+  border-radius: 15px;
+  font-weight: 600;
+  border-width: 1px;
+  font-size: 17px;
+}
+
+label {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.instruction {
+  text-align: center;
+}
+
+.submission {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(182, 144, 144);
+  display: none;
+  position: absolute;
+  border-radius: 5%;
+  padding: 40px;
+  font-size: 20px;
+}
+
+.nameCheck {
+  display: none;
+}
+
+.emailCheck {
+  display: none;
+}
+
+.passwordCheck {
+  display: none;
+}
+
+.success {
+  display: none;
+}

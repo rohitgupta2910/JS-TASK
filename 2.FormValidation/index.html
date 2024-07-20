@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormValidation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="fill">
+        <div class="submission">
+          <div class="nameCheck">
+            <h5>
+              Please enter a valid username (3-16 characters,underscores and
+              space only).
+            </h5>
+            <br />
+          </div>
+          <div class="emailCheck">
+            <h5>Please enter a valid email address.</h5>
+            <br />
+          </div>
+          <div class="passwordCheck">
+            <h5>
+              Please enter a valid password (at least 8 characters and one
+              special character).
+            </h5>
+            <br />
+          </div>
+          <div class="success">
+            <h5>Form Submitted Succesfully ✅</h5>
+          </div>
+        </div>
+
+        <form class="formStructure">
+          <div class="filling">
+            <label>Name :</label>
+            <br />
+            <input type="text" id="name" name="name" /><br /><br />
+
+            <label>Email :</label>
+            <br />
+            <input type="email" id="email" name="email" /><br /><br />
+
+            <label>Password :</label>
+            <br />
+            <input type="password" id="password" name="password" /><br /><br />
+          </div>
+
+          <button class="submit">Submit</button>
+        </form>
+
+        <div class="instruction">
+          <h4>Instructions To Fill The Form</h4>
+          <br />
+          <h4>
+            <i class="ri-play-large-fill"></i> Name : Field Should Only Contains
+            Alphabet
+          </h4>
+          <h4>
+            <i class="ri-play-large-fill"></i> Password : Length Should Be
+            Atleast 8 <br />
+            & Must Contain Special Characters
+          </h4>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(132, 107, 155, 0.347);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "gilroy";
+  margin: auto;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 15%;
+  border: 1px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px 20px;
+  transition: ease-in-out 0.2s;
+}
+
+.text:hover .tooltip {
+  visibility: visible;
+  transition-delay: 0.2s;
+}
